@@ -1,0 +1,135 @@
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 02:24:00 2011
+
+OPEN /home/luizfelipe/trabalhos/imagens/figuras/Alpes.bmp
+GAUSS Numero de cores: 88952 - tempo de processamento: 0.1 segundos
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 02:24:42 2011
+
+OPEN /home/luizfelipe/trabalhos/imagens/figuras/captura.bmp
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 02:25:40 2011
+
+OPEN /home/luizfelipe/trabalhos/imagens/figuras/Flores.bmp
+GAUSS Numero de cores: 65130 - tempo de processamento: 0.0 segundos
+SAVE /home/luizfelipe/Desktop/teste
+SAVE /home/luizfelipe/Desktop/bla.bmp
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 02:27:24 2011
+
+OPEN /home/luizfelipe/trabalhos/imagens/figuras/captura.bmp
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 02:28:22 2011
+
+OPEN /home/luizfelipe/trabalhos/imagens/figuras/captura.bmp
+ReduzCores256 Numero de cores: 256 - tempo de processamento: 0.7 segundos
+ReduzCores256 Numero de cores: 143 - tempo de processamento: 0.7 segundos
+ReduzCores256 Numero de cores: 122 - tempo de processamento: 0.7 segundos
+ReduzCores256 Numero de cores: 105 - tempo de processamento: 0.7 segundos
+ReduzCores256 Numero de cores: 100 - tempo de processamento: 0.7 segundos
+ReduzCores256 Numero de cores: 95 - tempo de processamento: 0.7 segundos
+ARESTAS tempo de processamento: 0.1 segundos
+TRANSF
+DIF Valor medio dos pixels = 0.000
+TRANSF
+ReduzCores256 Numero de cores: 256 - tempo de processamento: 0.7 segundos
+DIF Valor medio dos pixels = 0.012
+TRANSF
+GAUSS Numero de cores: 44459 - tempo de processamento: 0.0 segundos
+GAUSS Numero de cores: 43998 - tempo de processamento: 0.0 segundos
+DIF Valor medio dos pixels = 0.049
+TRANSF
+ReduzCores256 Numero de cores: 256 - tempo de processamento: 0.7 segundos
+ReduzCores256 Numero de cores: 143 - tempo de processamento: 0.7 segundos
+DIF Valor medio dos pixels = 0.016
+TRANSF
+GAUSS Numero de cores: 44459 - tempo de processamento: 0.0 segundos
+GAUSS Numero de cores: 43998 - tempo de processamento: 0.1 segundos
+GAUSS Numero de cores: 44402 - tempo de processamento: 0.0 segundos
+DIF Valor medio dos pixels = 0.072
+TRANSF
+Numero de cores. Esq: 28926  Dir:28926 - Tempo: 0.1
+ReduzCores256 Numero de cores: 256 - tempo de processamento: 0.7 segundos
+GAUSS Numero de cores: 25533 - tempo de processamento: 0.0 segundos
+MEDIANA Numero de cores: 23356 - tempo de processamento: 0.2 segundos
+MEDIANA Numero de cores: 21937 - tempo de processamento: 0.2 segundos
+MEDIANA Numero de cores: 21016 - tempo de processamento: 0.2 segundos
+MEDIANA Numero de cores: 20323 - tempo de processamento: 0.2 segundos
+MEDIANA Numero de cores: 19789 - tempo de processamento: 0.2 segundos
+DIF Valor medio dos pixels = 0.031
+UNDO
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 02:29:44 2011
+
+OPEN /home/luizfelipe/trabalhos/imagens/figuras/DSC00241.bmp
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 02:30:12 2011
+
+OPEN /home/luizfelipe/trabalhos/imagens/figuras/captura.bmp
+OPEN /home/luizfelipe/trabalhos/imagens/figuras/DSC00241.bmp
+ReduzCores256 Numero de cores: 256 - tempo de processamento: 7.1 segundos
+ARESTAS tempo de processamento: 0.7 segundos
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 13:31:41 2011
+
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 22:49:42 2011
+
+OPEN /home/luizfelipe/Ubuntu One/trabalhos/imagens/figuras/Alpes.bmp
+****************************************************************
+0712196 Luiz Felipe Machado da Silva
+
+Data: Fri Sep  9 22:50:10 2011
+
+OPEN /home/luizfelipe/Ubuntu One/trabalhos/imagens/figuras/captura.bmp
+ReduzCores256 Numero de cores: 256 - tempo de processamento: 0.7 segundos
+GAUSS Numero de cores: 25533 - tempo de processamento: 0.0 segundos
+DIF Valor medio dos pixels = 0.028
+UNDO
+DIF Valor medio dos pixels = 0.012
+UNDO
+UNDO
+UNDO
+UNDO
+UNDO
+UNDO
+UNDO
+TRANSF
+GAUSS Numero de cores: 44459 - tempo de processamento: 0.0 segundos
+GAUSS Numero de cores: 43998 - tempo de processamento: 0.0 segundos
+DIF Valor medio dos pixels = 0.049
+OPEN /home/luizfelipe/Ubuntu One/trabalhos/imagens/figuras/Alpes.bmp
+GAUSS Numero de cores: 88952 - tempo de processamento: 0.1 segundos
+ARESTAS tempo de processamento: 0.2 segundos
+OPEN /home/luizfelipe/Ubuntu One/trabalhos/imagens/figuras/CasaPraia.bmp
+MEDIANA Numero de cores: 102128 - tempo de processamento: 0.6 segundos
+MEDIANA Numero de cores: 92287 - tempo de processamento: 0.6 segundos
+MEDIANA Numero de cores: 86253 - tempo de processamento: 0.6 segundos
+MEDIANA Numero de cores: 81736 - tempo de processamento: 0.6 segundos
+MEDIANA Numero de cores: 78086 - tempo de processamento: 0.5 segundos
+MEDIANA Numero de cores: 75061 - tempo de processamento: 0.5 segundos
+MEDIANA Numero de cores: 72777 - tempo de processamento: 0.5 segundos
+MEDIANA Numero de cores: 70846 - tempo de processamento: 0.5 segundos
+MEDIANA Numero de cores: 69443 - tempo de processamento: 0.5 segundos
+MEDIANA Numero de cores: 68287 - tempo de processamento: 0.5 segundos
+MEDIANA Numero de cores: 67451 - tempo de processamento: 0.5 segundos
+MEDIANA Numero de cores: 66775 - tempo de processamento: 0.6 segundos
+MEDIANA Numero de cores: 66258 - tempo de processamento: 0.5 segundos

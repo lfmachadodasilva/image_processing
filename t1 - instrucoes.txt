@@ -1,0 +1,69 @@
+T1 - Programa de Imagens
+
+Atenção: Estas páginas serão constantemente atualizadas durante o curso. Última atualização: 08/26/2010
+
+Dado um programa ( versão IUP ) que contem um módulo de processamento de imagens que lê, põe na tela e escreve imagens no formato BMP complemente o módulo acrescentando as seguintes funções:
+
+1) Aplique um filtro Gaussiano na imagem de forma a reduzir o ruido branco presente nela.
+    A função deve ter o seguinte protótipo:
+
+    void imgGauss(Image* destination, Image* source);
+
+  A imagem fornecida, source,  é modificada em destination de forma  que o valor de cada canal (RGB) de pixel (que não esteja na borda) deve receber a média ponderada de seus vizinhos de acordo com a seguinte máscara:
+
+   1   | 1  2  1 |
+   --  | 2  4  2 |
+   16  | 1  2  1 |
+
+ 2)  Aplique um filtro de Mediana na imagem de forma a reduzir o ruido tipo sal e pimenta presente nela.
+    A função deve ter o seguinte protótipo:
+
+    void imgMedian(Image* image);
+
+  A imagem fornecida é modificada de forma  que o valor de cada canal de cada pixel (que não esteja na borda) deve receber o valor mediano dele e dos seus 8 vizinhos.
+
+3) Calcule uma imagem em tons de cinza que indique onde na imagem dada existem arestas. 
+    A função deve ter o seguinte protótipo:
+
+    Image* imgEdges(Image* image);
+
+   A nova imagem deve conter uma estimativa das derivadas dos valores de luminosidade dos pixels através dos operadores de Sobel para linhas verticais e horizontais:
+
+  1  | -1  -2  -1 |
+ --  |  0   0   0 |
+  4  |  1   2   1 |
+
+  1  | 1  0  -1 |
+ --  | 2  0  -2 |
+  4  | 1  0  -1 |
+
+
+    A imagem fornecida  não deve ser alterada.
+
+4)  Reduza o número de cores distintas da imagem dada para ncolors.
+    A função deve ter o seguinte protótipo:
+
+    Image* imgReduceColors(Image* source, int ncolors );
+
+   A função retorna uma nova imagem semelhante a primeira com apenas ncolors cores distintas.
+    A imagem original não é alterada.
+
+    Sugestão: Gere uma palheta de ncolors cores e substitua a cor de cada pixel pela cor mais próxima 
+                    da palheta. Para gerar a palheta vou sugerir nas próximas aulas vários algoritmos.
+
+ Paraa facilitar a comparação segue baixe o programa gabarito.
+
+ENTREGA:   
+
+A entrega deverá ser feita por e-mail até antes da aula de apresentação.
+O e-mail deve conter em anexo um arquivo tipo zip com nome t1CGFulano&Beltrano.zip.
+(Só utilize caracteres ASCII nos nomes dos arquivos, por favor)
+Este aquivo zip deve conter um arquivo fonte que deve substituir o arquivo image.c fornecido.
+O nome deste aquivo fonte deve ser do tipo "Fulano&BeltranoImage.c."
+Notem que os protótipos das novas funções já estão no arquivo image.h e devem ser respeitados.
+Coloque no Subject da mensagem: t1CGFulano&Beltrano
+Não envie um executavel, que meu e-mail vai recusar.
+Não coloque o arquivo fonte no corpo da mensagem, contando que eu vá ficar fazendo copy e paste.
+Os trabalhos serão defendidos (rodados na hora) no horário de aula do dia da entrega.
+O trabalho pode ser feito individualmente ou em duplas, neste último caso na hora da aula eu vou
+determinar qual dos dois vai explicá-lo (a explicação faz parte da nota).
